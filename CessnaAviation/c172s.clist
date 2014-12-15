@@ -1,0 +1,54 @@
+*, Preflight (Inside Cockpit)
+W&B / Performance / AROW
+Fuel Gauges / Fuel Valves, Check
+MASTER, ON
+Lights / Flaps, Check
+Avionics Fan, Audible
+Annunciator Panel, TEST
+MASTER / Ignition / Mags, OFF
+*, External
+Locks / Chains / Chocks, Remove
+Quick Fuel Drains (13), Drain / Check
+Fuel Tanks / Quantity, Inspect 
+Rivets / Skin / Doors, Check
+Flaps / Ailerons / Rudder, Check
+Tires / Brakes / Struts, Inspect 
+Tire Pressure, Nose: 45 PSI, Main: 38 PSI
+Oil (8 QTS.) / Prop, Check
+Landing / Nav Lights, Inspect
+Pilot / Static, Inspect 
+*, Engine Start / Taxi
+Briefing / Seat Belts, Check
+Fuel Valves, ON and BOTH
+Beacon / Lights, As Needed
+Circuit Breakers, Check
+Throttle, 1/4 inch OPEN
+MASTER, ON
+Aux. Fuel Pump, ON
+Mixture (3-5 GPH), Prime / Cut-OFF
+Area Clear / Start, 1000 RPM
+Mixture, Advance
+Oil Pressure, Check
+Aux. Fuel Pump, OFF
+Avionics / TXPNDR, ON / STBY
+Mixture / Flaps, Adjust
+ATIS / AWOS / ASOS, Obtain
+Taxi Clearance, Obtain
+Brakes / Instruments, Check
+*, Before Takeoff
+Flight Controls, Check
+Fuel Selector, BOTH
+Mixture, Adjust / DA & Elev
+Power, 1800 RPM
+Ignition Switches, L&R (150/50)
+Engine Gauges, Check
+Vacuum / Ammeter, Check
+Annunciators, Check
+Power, Reduce 
+Instruments, Check / Set
+COM/NAV's, Set
+Doors / Windows, Lock
+Trim / Flaps, Set
+Lights / TXPDNR, Set
+AutoPilot, OFF
+Clearance, Obtain

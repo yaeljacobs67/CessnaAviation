@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BBC68501A3EBB1300BBEC09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC684F1A3EBB1300BBEC09 /* AppDelegate.swift */; };
-		8BBC68521A3EBB1300BBEC09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC68511A3EBB1300BBEC09 /* ViewController.swift */; };
 		8BBC68551A3EBB1300BBEC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC68531A3EBB1300BBEC09 /* Main.storyboard */; };
 		8BBC68571A3EBB1300BBEC09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC68561A3EBB1300BBEC09 /* Images.xcassets */; };
 		8BBC685A1A3EBB1300BBEC09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC68581A3EBB1300BBEC09 /* LaunchScreen.xib */; };
 		8BBC68661A3EBB1300BBEC09 /* CessnaAviationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC68651A3EBB1300BBEC09 /* CessnaAviationTests.swift */; };
+		8BEA844D1A3EBD15002FF3EB /* WeightBalanceCalcEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA844C1A3EBD15002FF3EB /* WeightBalanceCalcEngineTests.swift */; };
+		8BEA84511A3EBD4D002FF3EB /* c172s.clist in Resources */ = {isa = PBXBuildFile; fileRef = 8BEA844F1A3EBD4D002FF3EB /* c172s.clist */; };
+		8BEA84521A3EBD4D002FF3EB /* c172sEmer.clist in Resources */ = {isa = PBXBuildFile; fileRef = 8BEA84501A3EBD4D002FF3EB /* c172sEmer.clist */; };
+		8BEA845B1A3EBD75002FF3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA84531A3EBD75002FF3EB /* AppDelegate.swift */; };
+		8BEA845C1A3EBD75002FF3EB /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA84561A3EBD75002FF3EB /* GraphViewController.m */; };
+		8BEA845D1A3EBD75002FF3EB /* MBChkListParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA84581A3EBD75002FF3EB /* MBChkListParser.m */; };
+		8BEA845E1A3EBD75002FF3EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA84591A3EBD75002FF3EB /* ViewController.swift */; };
+		8BEA845F1A3EBD75002FF3EB /* WBCalcEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA845A1A3EBD75002FF3EB /* WBCalcEngine.swift */; };
+		8BEA84681A3EBE81002FF3EB /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEA84671A3EBE6B002FF3EB /* libCorePlot-CocoaTouch.a */; };
+		8BEA846C1A3EBEDE002FF3EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEA846B1A3EBEDE002FF3EB /* QuartzCore.framework */; };
+		8BEA846E1A3EBEE3002FF3EB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEA846D1A3EBEE3002FF3EB /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +32,45 @@
 			remoteGlobalIDString = 8BBC68491A3EBB1300BBEC09;
 			remoteInfo = CessnaAviation;
 		};
+		8BEA84661A3EBE6B002FF3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEA84601A3EBE6B002FF3EB /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		8BEA84691A3EBED5002FF3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEA84601A3EBE6B002FF3EB /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B83460FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8BBC684A1A3EBB1300BBEC09 /* CessnaAviation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CessnaAviation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBC684E1A3EBB1300BBEC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BBC684F1A3EBB1300BBEC09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BBC68511A3EBB1300BBEC09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8BBC68541A3EBB1300BBEC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BBC68561A3EBB1300BBEC09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8BBC68591A3EBB1300BBEC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8BBC685F1A3EBB1300BBEC09 /* CessnaAviationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CessnaAviationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBC68641A3EBB1300BBEC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BBC68651A3EBB1300BBEC09 /* CessnaAviationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CessnaAviationTests.swift; sourceTree = "<group>"; };
+		8BEA844C1A3EBD15002FF3EB /* WeightBalanceCalcEngineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightBalanceCalcEngineTests.swift; sourceTree = "<group>"; };
+		8BEA844F1A3EBD4D002FF3EB /* c172s.clist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = c172s.clist; sourceTree = "<group>"; };
+		8BEA84501A3EBD4D002FF3EB /* c172sEmer.clist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = c172sEmer.clist; sourceTree = "<group>"; };
+		8BEA84531A3EBD75002FF3EB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BEA84541A3EBD75002FF3EB /* AviationWB-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AviationWB-Bridging-Header.h"; sourceTree = "<group>"; };
+		8BEA84551A3EBD75002FF3EB /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		8BEA84561A3EBD75002FF3EB /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		8BEA84571A3EBD75002FF3EB /* MBChkListParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBChkListParser.h; sourceTree = "<group>"; };
+		8BEA84581A3EBD75002FF3EB /* MBChkListParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBChkListParser.m; sourceTree = "<group>"; };
+		8BEA84591A3EBD75002FF3EB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BEA845A1A3EBD75002FF3EB /* WBCalcEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBCalcEngine.swift; sourceTree = "<group>"; };
+		8BEA84601A3EBE6B002FF3EB /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "core-plot/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
+		8BEA846B1A3EBEDE002FF3EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8BEA846D1A3EBEE3002FF3EB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BEA846E1A3EBEE3002FF3EB /* Accelerate.framework in Frameworks */,
+				8BEA846C1A3EBEDE002FF3EB /* QuartzCore.framework in Frameworks */,
+				8BEA84681A3EBE81002FF3EB /* libCorePlot-CocoaTouch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +97,11 @@
 		8BBC68411A3EBB1200BBEC09 = {
 			isa = PBXGroup;
 			children = (
+				8BEA84601A3EBE6B002FF3EB /* CorePlot-CocoaTouch.xcodeproj */,
 				8BBC684C1A3EBB1300BBEC09 /* CessnaAviation */,
 				8BBC68621A3EBB1300BBEC09 /* CessnaAviationTests */,
 				8BBC684B1A3EBB1300BBEC09 /* Products */,
+				8BEA846F1A3EBF75002FF3EB /* Framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +117,18 @@
 		8BBC684C1A3EBB1300BBEC09 /* CessnaAviation */ = {
 			isa = PBXGroup;
 			children = (
-				8BBC684F1A3EBB1300BBEC09 /* AppDelegate.swift */,
-				8BBC68511A3EBB1300BBEC09 /* ViewController.swift */,
+				8BEA84531A3EBD75002FF3EB /* AppDelegate.swift */,
+				8BEA84541A3EBD75002FF3EB /* AviationWB-Bridging-Header.h */,
+				8BEA84551A3EBD75002FF3EB /* GraphViewController.h */,
+				8BEA84561A3EBD75002FF3EB /* GraphViewController.m */,
+				8BEA84571A3EBD75002FF3EB /* MBChkListParser.h */,
+				8BEA84581A3EBD75002FF3EB /* MBChkListParser.m */,
+				8BEA84591A3EBD75002FF3EB /* ViewController.swift */,
+				8BEA845A1A3EBD75002FF3EB /* WBCalcEngine.swift */,
 				8BBC68531A3EBB1300BBEC09 /* Main.storyboard */,
 				8BBC68561A3EBB1300BBEC09 /* Images.xcassets */,
 				8BBC68581A3EBB1300BBEC09 /* LaunchScreen.xib */,
+				8BEA844E1A3EBD39002FF3EB /* Checklists */,
 				8BBC684D1A3EBB1300BBEC09 /* Supporting Files */,
 			);
 			path = CessnaAviation;
@@ -98,6 +145,7 @@
 		8BBC68621A3EBB1300BBEC09 /* CessnaAviationTests */ = {
 			isa = PBXGroup;
 			children = (
+				8BEA844C1A3EBD15002FF3EB /* WeightBalanceCalcEngineTests.swift */,
 				8BBC68651A3EBB1300BBEC09 /* CessnaAviationTests.swift */,
 				8BBC68631A3EBB1300BBEC09 /* Supporting Files */,
 			);
@@ -110,6 +158,32 @@
 				8BBC68641A3EBB1300BBEC09 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BEA844E1A3EBD39002FF3EB /* Checklists */ = {
+			isa = PBXGroup;
+			children = (
+				8BEA844F1A3EBD4D002FF3EB /* c172s.clist */,
+				8BEA84501A3EBD4D002FF3EB /* c172sEmer.clist */,
+			);
+			name = Checklists;
+			sourceTree = "<group>";
+		};
+		8BEA84611A3EBE6B002FF3EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEA84671A3EBE6B002FF3EB /* libCorePlot-CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEA846F1A3EBF75002FF3EB /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8BEA846D1A3EBEE3002FF3EB /* Accelerate.framework */,
+				8BEA846B1A3EBEDE002FF3EB /* QuartzCore.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +200,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				8BEA846A1A3EBED5002FF3EB /* PBXTargetDependency */,
 			);
 			name = CessnaAviation;
 			productName = CessnaAviation;
@@ -161,6 +236,7 @@
 				TargetAttributes = {
 					8BBC68491A3EBB1300BBEC09 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 58K2V57UB6;
 					};
 					8BBC685E1A3EBB1300BBEC09 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -179,6 +255,12 @@
 			mainGroup = 8BBC68411A3EBB1200BBEC09;
 			productRefGroup = 8BBC684B1A3EBB1300BBEC09 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8BEA84611A3EBE6B002FF3EB /* Products */;
+					ProjectRef = 8BEA84601A3EBE6B002FF3EB /* CorePlot-CocoaTouch.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8BBC68491A3EBB1300BBEC09 /* CessnaAviation */,
@@ -187,12 +269,24 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8BEA84671A3EBE6B002FF3EB /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = 8BEA84661A3EBE6B002FF3EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8BBC68481A3EBB1300BBEC09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BEA84511A3EBD4D002FF3EB /* c172s.clist in Resources */,
 				8BBC68551A3EBB1300BBEC09 /* Main.storyboard in Resources */,
+				8BEA84521A3EBD4D002FF3EB /* c172sEmer.clist in Resources */,
 				8BBC685A1A3EBB1300BBEC09 /* LaunchScreen.xib in Resources */,
 				8BBC68571A3EBB1300BBEC09 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BBC68521A3EBB1300BBEC09 /* ViewController.swift in Sources */,
-				8BBC68501A3EBB1300BBEC09 /* AppDelegate.swift in Sources */,
+				8BEA845F1A3EBD75002FF3EB /* WBCalcEngine.swift in Sources */,
+				8BEA845B1A3EBD75002FF3EB /* AppDelegate.swift in Sources */,
+				8BEA845D1A3EBD75002FF3EB /* MBChkListParser.m in Sources */,
+				8BEA845E1A3EBD75002FF3EB /* ViewController.swift in Sources */,
+				8BEA845C1A3EBD75002FF3EB /* GraphViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BBC68661A3EBB1300BBEC09 /* CessnaAviationTests.swift in Sources */,
+				8BEA844D1A3EBD15002FF3EB /* WeightBalanceCalcEngineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +330,11 @@
 			isa = PBXTargetDependency;
 			target = 8BBC68491A3EBB1300BBEC09 /* CessnaAviation */;
 			targetProxy = 8BBC68601A3EBB1300BBEC09 /* PBXContainerItemProxy */;
+		};
+		8BEA846A1A3EBED5002FF3EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CorePlot-CocoaTouch";
+			targetProxy = 8BEA84691A3EBED5002FF3EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,9 +441,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${PROJECT_DIR}/core-plot/framework/**",
+				);
 				INFOPLIST_FILE = CessnaAviation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,8 +463,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${PROJECT_DIR}/core-plot/framework/**",
+				);
 				INFOPLIST_FILE = CessnaAviation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -407,6 +533,7 @@
 				8BBC686B1A3EBB1300BBEC09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BBC686C1A3EBB1300BBEC09 /* Build configuration list for PBXNativeTarget "CessnaAviationTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +542,7 @@
 				8BBC686E1A3EBB1300BBEC09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

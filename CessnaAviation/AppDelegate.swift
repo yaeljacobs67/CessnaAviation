@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  CessnaAviation
+//  AviationWB
 //
-//  Created by Michael Baptist on 12/14/14.
+//  Created by Michael Baptist on 9/20/14.
 //  Copyright (c) 2014 Michael Baptist. All rights reserved.
 //
 
