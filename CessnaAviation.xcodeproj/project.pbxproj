@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BA3BB471A3EC8FA00E4FAD7 /* WBCalcEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3BB461A3EC8FA00E4FAD7 /* WBCalcEngineTests.swift */; };
+		8BA3BB491A3EC91E00E4FAD7 /* WBCalcEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3BB481A3EC91E00E4FAD7 /* WBCalcEngine.swift */; };
+		8BA3BB4A1A3EC91E00E4FAD7 /* WBCalcEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3BB481A3EC91E00E4FAD7 /* WBCalcEngine.swift */; };
 		8BBC68551A3EBB1300BBEC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC68531A3EBB1300BBEC09 /* Main.storyboard */; };
 		8BBC68571A3EBB1300BBEC09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC68561A3EBB1300BBEC09 /* Images.xcassets */; };
 		8BBC685A1A3EBB1300BBEC09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC68581A3EBB1300BBEC09 /* LaunchScreen.xib */; };
 		8BBC68661A3EBB1300BBEC09 /* CessnaAviationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC68651A3EBB1300BBEC09 /* CessnaAviationTests.swift */; };
-		8BEA844D1A3EBD15002FF3EB /* WeightBalanceCalcEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA844C1A3EBD15002FF3EB /* WeightBalanceCalcEngineTests.swift */; };
 		8BEA84511A3EBD4D002FF3EB /* c172s.clist in Resources */ = {isa = PBXBuildFile; fileRef = 8BEA844F1A3EBD4D002FF3EB /* c172s.clist */; };
 		8BEA84521A3EBD4D002FF3EB /* c172sEmer.clist in Resources */ = {isa = PBXBuildFile; fileRef = 8BEA84501A3EBD4D002FF3EB /* c172sEmer.clist */; };
 		8BEA845B1A3EBD75002FF3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA84531A3EBD75002FF3EB /* AppDelegate.swift */; };
 		8BEA845C1A3EBD75002FF3EB /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA84561A3EBD75002FF3EB /* GraphViewController.m */; };
 		8BEA845D1A3EBD75002FF3EB /* MBChkListParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA84581A3EBD75002FF3EB /* MBChkListParser.m */; };
 		8BEA845E1A3EBD75002FF3EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA84591A3EBD75002FF3EB /* ViewController.swift */; };
-		8BEA845F1A3EBD75002FF3EB /* WBCalcEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA845A1A3EBD75002FF3EB /* WBCalcEngine.swift */; };
 		8BEA84681A3EBE81002FF3EB /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEA84671A3EBE6B002FF3EB /* libCorePlot-CocoaTouch.a */; };
 		8BEA846C1A3EBEDE002FF3EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEA846B1A3EBEDE002FF3EB /* QuartzCore.framework */; };
 		8BEA846E1A3EBEE3002FF3EB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEA846D1A3EBEE3002FF3EB /* Accelerate.framework */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BA3BB461A3EC8FA00E4FAD7 /* WBCalcEngineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBCalcEngineTests.swift; sourceTree = "<group>"; };
+		8BA3BB481A3EC91E00E4FAD7 /* WBCalcEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBCalcEngine.swift; sourceTree = "<group>"; };
 		8BBC684A1A3EBB1300BBEC09 /* CessnaAviation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CessnaAviation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBC684E1A3EBB1300BBEC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BBC68541A3EBB1300BBEC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,7 +60,6 @@
 		8BBC685F1A3EBB1300BBEC09 /* CessnaAviationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CessnaAviationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBC68641A3EBB1300BBEC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BBC68651A3EBB1300BBEC09 /* CessnaAviationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CessnaAviationTests.swift; sourceTree = "<group>"; };
-		8BEA844C1A3EBD15002FF3EB /* WeightBalanceCalcEngineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightBalanceCalcEngineTests.swift; sourceTree = "<group>"; };
 		8BEA844F1A3EBD4D002FF3EB /* c172s.clist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = c172s.clist; sourceTree = "<group>"; };
 		8BEA84501A3EBD4D002FF3EB /* c172sEmer.clist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = c172sEmer.clist; sourceTree = "<group>"; };
 		8BEA84531A3EBD75002FF3EB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +69,6 @@
 		8BEA84571A3EBD75002FF3EB /* MBChkListParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBChkListParser.h; sourceTree = "<group>"; };
 		8BEA84581A3EBD75002FF3EB /* MBChkListParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBChkListParser.m; sourceTree = "<group>"; };
 		8BEA84591A3EBD75002FF3EB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8BEA845A1A3EBD75002FF3EB /* WBCalcEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBCalcEngine.swift; sourceTree = "<group>"; };
 		8BEA84601A3EBE6B002FF3EB /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "core-plot/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
 		8BEA846B1A3EBEDE002FF3EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8BEA846D1A3EBEE3002FF3EB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -123,8 +124,8 @@
 				8BEA84561A3EBD75002FF3EB /* GraphViewController.m */,
 				8BEA84571A3EBD75002FF3EB /* MBChkListParser.h */,
 				8BEA84581A3EBD75002FF3EB /* MBChkListParser.m */,
+				8BA3BB481A3EC91E00E4FAD7 /* WBCalcEngine.swift */,
 				8BEA84591A3EBD75002FF3EB /* ViewController.swift */,
-				8BEA845A1A3EBD75002FF3EB /* WBCalcEngine.swift */,
 				8BBC68531A3EBB1300BBEC09 /* Main.storyboard */,
 				8BBC68561A3EBB1300BBEC09 /* Images.xcassets */,
 				8BBC68581A3EBB1300BBEC09 /* LaunchScreen.xib */,
@@ -145,7 +146,7 @@
 		8BBC68621A3EBB1300BBEC09 /* CessnaAviationTests */ = {
 			isa = PBXGroup;
 			children = (
-				8BEA844C1A3EBD15002FF3EB /* WeightBalanceCalcEngineTests.swift */,
+				8BA3BB461A3EC8FA00E4FAD7 /* WBCalcEngineTests.swift */,
 				8BBC68651A3EBB1300BBEC09 /* CessnaAviationTests.swift */,
 				8BBC68631A3EBB1300BBEC09 /* Supporting Files */,
 			);
@@ -306,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEA845F1A3EBD75002FF3EB /* WBCalcEngine.swift in Sources */,
+				8BA3BB491A3EC91E00E4FAD7 /* WBCalcEngine.swift in Sources */,
 				8BEA845B1A3EBD75002FF3EB /* AppDelegate.swift in Sources */,
 				8BEA845D1A3EBD75002FF3EB /* MBChkListParser.m in Sources */,
 				8BEA845E1A3EBD75002FF3EB /* ViewController.swift in Sources */,
@@ -319,7 +320,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BBC68661A3EBB1300BBEC09 /* CessnaAviationTests.swift in Sources */,
-				8BEA844D1A3EBD15002FF3EB /* WeightBalanceCalcEngineTests.swift in Sources */,
+				8BA3BB471A3EC8FA00E4FAD7 /* WBCalcEngineTests.swift in Sources */,
+				8BA3BB4A1A3EC91E00E4FAD7 /* WBCalcEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
