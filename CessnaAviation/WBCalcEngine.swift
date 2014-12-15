@@ -9,7 +9,7 @@
 import UIKit
 
 class WBCalcEngine: NSObject {
-   
+    
     func aircraftWeightToMoment(aircraftWeight: Double) -> (Double) {
         return self.computeMoment(aircraftWeight, distance: 38);
     }

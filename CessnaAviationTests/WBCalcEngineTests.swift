@@ -1,5 +1,5 @@
 //
-//  WeightBalanceCalcEngineTests.swift
+//  WBCalcEngineTests.swift
 //  CessnaAviation
 //
 //  Created by Michael Baptist on 12/14/14.
@@ -13,8 +13,8 @@ import CessnaAviation
 class WBCalcEngineTests: XCTestCase {
     
     let calcEngine = WBCalcEngine();
-    var weightDict =  [String: Double]();
-    var momentDict =  [String: Double]();
+    var weightDict = [String: Double]();
+    var momentDict = [String: Double]();
     
     
     override func setUp() {
